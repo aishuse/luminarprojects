@@ -1,0 +1,21 @@
+n=input("enter a string: ")
+s=""
+for i in n:
+    s=i+s
+print(s)
+
+x="qwery"
+print(x[::-1])
+print("".join(reversed(x)))
+
+#
+# def reverse_string(str):
+#     str1 = ""  # Declaring empty string to store the reversed string
+#     for i in str:
+#         str1 = i + str1
+#     return str1  # It will return the reverse string to the caller function
+#
+#
+# str = "JavaTpoint"  # Given String
+# print("The original string is: ", str)
+# print("The reverse string is", reverse_string(str))  # Function call
